@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,600&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+.body {
+    overflow: hidden;
+}
+
+.container-1 {
+    width: 244px;
+    height: 954px;
+    display: block;
+    border-right: 1px solid rgba(0, 0, 0, 0.295);
+}
+
+#imagem {
+    border-radius: 100px;
+    width: 146.74px;
+    height: 140.14px;
+    margin-left: 64.22px;
+    margin-top: 55.02px;
+}
+
+
+.container-1 li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.abas ul {
+    margin-left: 40px;
+}
+
+.abas ul li {
+    height: 49.83px;
+    margin-top: 35px;
+    padding: 2px;
+    display: flex;
+}
+
+.abas h2 {
+    color: #666666;
+    ;
+    margin-top: 12px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+img {
+    width: 30px;
+}
+
+
+.abas-2 {
+    width: 200px;
+    margin-top: 180px;
+    margin-left: 10px;
+}
+
+.abas-2 ul li {
+    display: flex;
+}
+
+.abas-2 h2 {
+    margin-left: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #666666;
+}
+
+#tamanho-icon-1 {
+    width: 25px;
+    margin-left: 3px;
+}
+#tamanho-icon-2 {
+    width: 30px;
+    margin-left: 1px;
+}
+
+.tudo {
+    display: flex;
+}
+
+.opcao-editar {
+    display: flex;
+    position: relative;
+    height: 57px;
+    left: 150px;
+    top: 78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 57px;
+    /* identical to box height */
+
+
+    color: #042A3F;
+}
+
+.opcao-editar h3 {
+    margin-left: 20px;
+    border-bottom: 1px solid red;
+    height: 40px;
+    cursor: pointer;
+}
+
+.opcao-editar a {
+    text-decoration: none;
+}
+
+.foto img {
+    width: 50px;
+    position: relative;
+    top: 200px;
+    left: -230px;
+    border-radius: 100%;
+}
+
+.editar h4 {
+    position: relative;
+    top: 160px;
+    left: -170px;
+}
+
+.editar h5 {
+    position: relative;
+    top: 165px;
+    left: -170px;
+    color: red;
+}
+
+.select {
+    position: relative;
+    top: 400px;
+    left: -170px;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    height: 20px;
+    background-color: red;
+}
+
+.select option {}
+
+.informacoes {
+    position: relative;
+    left: -350px;
+    top: 300px;
+    height: 220px;
+}
+
+.info {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    font-size: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.info input {
+    background: rgba(217, 217, 217, 0.49);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 0px 5px;
+    border: none;
+}
+
+.info select {
+    width: 210px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(217, 217, 217, 0.49);
+}
+
+.info textarea {
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.49);
+    border: none;
+    resize: none;
+}
+
+#item-3 {
+    height: 20px;
+}
+
+#item-7 {
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.linha {
+    width: 900px;
+    height: 50px;
+    position: absolute;
+    top: 600px;
+    left: 330px;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.295);
+}
+
+
+.informacoes2 {
+    position: absolute;
+    left: 395px;
+    top: 620px;
+    height: 220px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    font-size: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.info2 input {
+    background: rgba(217, 217, 217, 0.49);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 0px 5px;
+    border: none;
+}
+
+.salvar button {
+    position: relative;
+    top: 910px;
+    left: -550px;
+    color: white;
+    background: #8886E7;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    cursor: pointer;
+}
+
+h2:hover {
+    margin-left: 18px;
+}
+
+@media (max-width: 1275px) {
+    * {
+
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 14px;
+    }
+    
+    .body {
+        overflow: hidden;
+    }
+    
+    .container-1 {
+        width: 244px;
+        height: 954px;
+        display: block;
+        border-right: 1px solid rgba(0, 0, 0, 0.295);
+    }
+    
+    #imagem {
+        border-radius: 100px;
+        width: 146.74px;
+        height: 140.14px;
+        margin-left: 64.22px;
+        margin-top: 55.02px;
+        background-color: blue;
+    }
+    
+    
+    .container-1 li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    
+    .abas ul {
+        margin-left: 40px;
+    }
+    
+    .abas ul li {
+        height: 49.83px;
+        margin-top: 35px;
+        padding: 2px;
+        display: flex;
+    }
+    
+    .abas h2 {
+        color: #666666;
+        ;
+        margin-top: 12px;
+        margin-left: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    img {
+        width: 30px;
+    }
+    
+    
+    .abas-2 {
+        width: 200px;
+        margin-top: 180px;
+        margin-left: 10px;
+    }
+    
+    .abas-2 ul li {
+        display: flex;
+    }
+    
+    .abas-2 h2 {
+        margin-left: 15px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    
+        color: #666666;
+    }
+    
+    #tamanho-icon-1 {
+        width: 25px;
+        margin-left: 3px;
+    }
+    #tamanho-icon-2 {
+        width: 30px;
+        margin-left: 1px;
+    }
+    
+    .tudo {
+        display: flex;
+    }
+    
+    .opcao-editar {
+        display: flex;
+        position: relative;
+        height: 57px;
+        left: 150px;
+        top: 78px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 57px;
+        /* identical to box height */
+    
+    
+        color: #042A3F;
+    }
+    
+    .opcao-editar h3 {
+        margin-left: 20px;
+        border-bottom: 1px solid red;
+        height: 40px;
+    }
+    
+    .foto img {
+        width: 50px;
+        position: relative;
+        top: 200px;
+        left: -230px;
+        border-radius: 100%;
+    }
+    
+    .editar h4 {
+        position: relative;
+        top: 160px;
+        left: -170px;
+    }
+    
+    .editar h5 {
+        position: relative;
+        top: 165px;
+        left: -170px;
+        color: red;
+    }
+    
+    .select {
+        position: relative;
+        top: 400px;
+        left: -170px;
+        padding: 8px;
+        font-size: 16px;
+        border: none;
+        height: 20px;
+        background-color: red;
+    }
+    
+    .select option {}
+    
+    .informacoes {
+        position: relative;
+        left: -350px;
+        top: 300px;
+        height: 220px;
+    }
+    
+    .info {
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+        font-size: 8px;
+        font-family: 'Poppins', sans-serif;
+        color: rgba(0, 0, 0, 0.548);
+    }
+    
+    .info input {
+        background: rgba(217, 217, 217, 0.49);
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding: 0px 5px;
+        border: none;
+    }
+    
+    .info select {
+        width: 210px;
+        margin-left: 10px;
+        border-radius: 10px;
+        border: none;
+        background: rgba(217, 217, 217, 0.49);
+    }
+    
+    .info textarea {
+        margin-left: 10px;
+        border-radius: 10px;
+        padding: 3px 5px;
+        box-sizing: border-box;
+        background: rgba(217, 217, 217, 0.49);
+        border: none;
+        resize: none;
+    }
+    
+    #item-3 {
+        height: 20px;
+    }
+    
+    #item-7 {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    
+    .linha {
+        width: 900px;
+        height: 50px;
+        position: absolute;
+        top: 600px;
+        left: 330px;
+        border: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.295);
+    }
+    
+    
+    .informacoes2 {
+        position: absolute;
+        left: 395px;
+        top: 620px;
+        height: 220px;
+    }
+    
+    .info2 {
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+        font-size: 8px;
+        font-family: 'Poppins', sans-serif;
+        color: rgba(0, 0, 0, 0.548);
+    }
+    
+    .info2 input {
+        background: rgba(217, 217, 217, 0.49);
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding: 0px 5px;
+        border: none;
+    }
+    
+    .salvar button {
+        position: relative;
+        top: 910px;
+        left: -550px;
+        color: white;
+        background: #8886E7;
+        border-radius: 15px;
+        width: 150px;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    h2 {
+        cursor: pointer;
+    }
+    
+    h2:hover {
+        margin-left: 18px;
+    }
+}
