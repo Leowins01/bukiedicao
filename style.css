@@ -1,28 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,600&display=swap');
-
 * {
-
     margin: 0;
     padding: 0;
 }
 
-html {
-    font-size: 0.875rem;
+.tudo {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
 }
 
-.body {
-    overflow: hidden;
-}
+/* SIDEBAR */
 
-.container-1 {
-    width: 15.25rem;
+.sidebar {
+    width: 100%;
     height: 62.625rem;
-    display: block;
-    border-right: 0.063rem solid rgba(0, 0, 0, 0.295);
 }
 
 #imagem {
-    border-radius: 6.25rem;
+    border: none;
     width: 9.171rem;
     height: 8.759rem;
     margin-left: 4.014rem;
@@ -71,6 +66,14 @@ img {
     margin-left: 0.625rem;
 }
 
+.help {
+    margin-top: 15px;
+}
+
+.out {
+    margin-top: 15px;
+}
+
 .abas-2 ul li {
     display: flex;
 }
@@ -87,20 +90,14 @@ img {
     cursor: pointer;
 }
 
-.tudo {
-    display: flex;
-}
+/* MAIN */
 
-
-
-.info-perfil {
-    width: 738px;
-    height: 673px;
-    margin-left: 92px;
-    margin-top: 40px;
-    padding: 10px;
+.main {
+    width: 46.125rem;
+    height: auto;
+    margin-top: 2.5rem;
+    padding: 0.625rem;
     box-sizing: border-box;
-
 }
 
 .flex {
@@ -213,13 +210,14 @@ img {
 
 .nav-post {
     display: flex;
-    gap: 109px;
+    max-width: 1200px;
+    min-width: 400px;
+    gap: 15rem;
     margin-top: 40px;
-    margin-left: -60px;
-    width: 880px;
+    width: 100%;
     height: 50px;
     border-top: 0.063rem solid rgba(0, 0, 0, 0.295);
-    padding-left: 170px;
+    justify-content: center;
 }
 
 .nav-post h3 {
@@ -236,14 +234,17 @@ img {
 }
 
 .posts {
-    display: flex;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    gap: 10px;
     margin-top: 20px;
+    justify-content: start;
 }
 
 .posts img {
-    width: 415px;
-    height: 255px;
+    width: 300px;
+    height: 300px;
 }
 
 #adicionar {
@@ -254,120 +255,86 @@ img {
     top: 420px;
 }
 
-@media (max-width: 1100px) {
-    body {
-        width: 1100px;
+@media (max-width: 1200px) {
+    .posts {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .nav-post {
-        position: absolute;
-        flex-direction: column;
-        margin-left: 350px;
-        width: 10px;
-        margin-top: 100px;
-        border: none;
-    }
-
-    .posts {
-        flex-direction: column;
+        width: 100%;
     }
 }
 
 @media (max-width: 992px) {
-
-    .info-perfil {
-        margin-left: 20px;
+    .posts {
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .destaques {
-        margin-left: 20px;
+    .posts img {
+        width: 300px;
+        height: 200px;
     }
 
-    #adicionar {
-        position: absolute;
-        border: none;
-        width: 50px;
-        left: 590px;
-        top: 420px;
+    .posts {
+        margin-top: 4rem;
     }
 
-    .info3 {
-        margin-left: 80px;
+    .nav-post {
+        display: block;
+    }
+
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: red;
     }
 }
 
 @media (max-width: 768px) {
     body {
-        background-color: red;
+        background-color: blue;
     }
-
-    .nav-post {
-        position: relative;
-        flex-direction: row;
-        margin-top: 20px;
-        margin-left: -140px;
-        width: 880px;
-        height: 50px;
-    }
-
-    .posts {
-        margin-left: 25px;
-    }
-
-    .editar2 button {
-        width: 100px;
-        margin-left: -90px;
-        font-size: 15px;
-    }
-
 }
+
 
 @media (max-width: 600px) {
     body {
-        overflow-x: hidden;
+        background-color: green;
     }
 
-    .nav-post {
-        display: none;
-    }
-
-
-    .posts img {
-        width: 300px;
-        height: 300px;
-    }
-
-    .imagem2-post {
-        margin-top: -120px;
-    }
-
-    .info3 {
-        display: none;
-    }
-
-    .destaques {
-        display: none;
-    }
-
-    .foto-perfil img {
-        display: none;
-    }
-
-    .info2 {
-        margin-top: 100px;
-        margin-left: -20px;
-    }
-
-    .editar2 button {
-        width: 100px;
-        margin-left: -90px;
-        font-size: 15px;
-    }
 }
 
-/* 
-    600
-    768
-    992
-    1200 
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .tudo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+header {
+    background-color: red;
+    width: clamp(220px, 55%, 300px);
+    height: 150px;
+} */
+
+/* @media (max-width:768px) {
+    .tudo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main {
+        margin-left: -10rem;
+    }
+} */
