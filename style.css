@@ -284,29 +284,3 @@ img {
     }
 
 }
-
-@media (max-width: 800px) {
-    body {
-        background-color: red;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        background-color: blue;
-    }
-}
-
-
-@media (max-width: 600px) {
-    body {
-        background-color: green;
-    }
-
-}
-
-@media (max-width: 425px) {
-    body {
-        background-color: yellow;
-    }
-}
