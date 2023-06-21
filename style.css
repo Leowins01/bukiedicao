@@ -304,3 +304,9 @@ img {
     }
 
 }
+
+@media (max-width: 425px) {
+    body {
+        background-color: yellow;
+    }
+}
